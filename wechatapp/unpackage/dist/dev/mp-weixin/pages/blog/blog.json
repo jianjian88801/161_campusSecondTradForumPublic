@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "博客",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nar-bar": "/components/narBar/narBar",
+    "my-topic": "/components/myTopic/myTopic",
+    "my-load": "/components/myLoad/myLoad",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "my-card": "/components/myCard/myCard",
+    "bottom-input": "/components/bottomInput/bottomInput"
+  }
+}

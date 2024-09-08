@@ -1,0 +1,1 @@
+<view class="warp"><block wx:if="{{loading}}"><talk-list class="vue-ref" vue-id="38c69140-1" userId="{{userId}}" typeId="{{typeId}}" data-ref="talkList" bind:__l="__l"></talk-list></block></view>

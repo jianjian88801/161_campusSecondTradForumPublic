@@ -1,0 +1,1 @@
+<view><web-view src="{{externalLink}}" data-event-opts="{{[['loadstart',[['onLoadStart',['$event']]]],['loadend',[['onLoadEnd',['$event']]]],['error',[['onError',['$event']]]]]}}" bindloadstart="__e" bindloadend="__e" binderror="__e"></web-view></view>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "卖闲置",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "nar-bar": "/components/narBar/narBar",
+    "my-load": "/components/myLoad/myLoad",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "sell-card": "/components/sellCard/sellCard"
+  }
+}

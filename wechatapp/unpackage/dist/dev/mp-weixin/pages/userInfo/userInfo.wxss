@@ -1,0 +1,25 @@
+
+.user-info-box .av{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+.avatar-wrapper{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+}
+button::after {
+   border: none;
+}
+.form{
+	padding: 15px 30px;
+	background-color: white;
+}
+
+
+

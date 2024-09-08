@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "更多",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list-item": "/components/listItem/listItem"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "uni-tag": "/uni_modules/uni-tag/components/uni-tag/uni-tag",
+    "my-comment": "/components/myComment/myComment",
+    "my-poput": "/components/myPoput/myPoput"
+  }
+}

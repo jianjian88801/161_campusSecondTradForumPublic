@@ -1,0 +1,47 @@
+
+.my-ads{
+	width: 100%;
+	height: 100%;
+}
+.swiper-box{
+	height: 100%;
+}
+.swiper-box swiper-item{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.swiper-box swiper-item image{
+	height: 90%;
+	border-radius: 10px;
+	width: 560rpx ;
+}
+.ads-active image{
+	height: 97% !important;
+	width: 610rpx !important;
+	transition-property: height,width;
+	transition-duration: 500ms,500ms;
+	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.my-ads  swiper-item image{
+}
+/* 
+.swiper-l image{
+	position: relative;
+	height: 90% !important;
+	width: 90% !important;
+	left: calc(5% + 45px);
+	z-index: 999;
+}
+.swiper-r image{
+	position: relative;
+	height: 90% !important;
+	width: 90% !important;
+	left: calc(-5% - 45px);
+	z-index: 999;
+}
+ */
+
+
+
+

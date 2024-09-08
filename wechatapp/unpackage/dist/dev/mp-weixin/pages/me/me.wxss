@@ -1,0 +1,308 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 个人信息开始 */
+	/* 背景 */
+.bar{
+	/* background-image: ; */
+	position: relative;
+	width: 100%; 
+	height: 45vh;
+	
+	border-style: solid;
+	border-width: 0 0 2px 0;
+	border-color: black;
+	/* filter: brightness(50%); */
+}
+.backgroundImage{
+	/* background-image: ; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+}
+	/* 头像 */
+.me-user-av{
+	
+	position: relative;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border-style: solid;
+	border-color: white;
+	border-width: 3px;
+	background: linear-gradient(-180deg, #BCC5CE 0%, #929EAD 98%), radial-gradient(at top left, rgba(255,255,255,0.30) 0%, rgba(0,0,0,0.30) 100%);
+	 background-blend-mode: screen;
+}
+.mine-user-info{
+	
+	position: absolute;
+	left: 60rpx;
+	bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.mine-username{
+	margin-top: 10px;
+	color: white;
+	font-size: 18px;
+}
+.info-list{
+	padding: 0 85rpx 0 25rpx;
+	display: flex;
+}
+.info-list > .item{
+	
+	width: 145rpx;
+	height: 145rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+.info-list > .item > ._span:first-child{
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 600;
+}
+.info-list > .item > ._span:nth-child(2){
+	font-size: 12px;
+}
+.tag-view{
+	display: flex;
+	
+	margin-top: 15px; 
+	font-size: 10px;
+}
+.tag-view   > .item {
+	margin-left: 10px;
+}
+	/* 个人信息结束 */
+	/* 列表开始*/
+.item-list{
+
+	background-color: white;
+	padding: 5px;
+}
+.item-list >.item{
+	margin: 10px 0;
+}
+
+
+
+

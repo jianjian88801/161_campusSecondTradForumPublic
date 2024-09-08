@@ -1,0 +1,41 @@
+
+.index > .search{
+	padding: 10px 30rpx;
+	background-color: white;
+}
+.index >.search .is-input-border{
+	border-radius: 50px !important;
+}
+.index > .ads{
+	margin-bottom: 20px;
+	height: 160px;
+}
+.main-content > .narBar{
+	display: flex;
+	width: 100%;
+	overflow: scroll;
+	border-radius: 10px;
+	background-color: #fac843;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+	margin-bottom: 10px;
+}
+.main-content > .narBar > .active{
+	background-color: white;
+}
+.main-content > .narBar > .active >.iconfont{
+	color: #fac843;
+}
+.main-content > .narBar > .item{
+	margin: 19rpx;
+	width: 100rpx;
+	/* height: 100rpx; */
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 50px;
+	flex-grow: 0;
+	flex-shrink: 0;
+}
+

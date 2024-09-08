@@ -1,0 +1,38 @@
+
+.sellCard{
+}
+.sellCard > image{
+	
+	width: 100%;
+	height: auto;
+}
+.sell-user-info{
+	display: flex;
+	align-items: center;
+	padding: 0 5px;
+	position: relative;
+	top: -10px;
+}
+.sell-user-info > image{
+	width: 20px;
+	height: 20px;
+	border-radius: 5px;
+	margin-right: 3px;
+}
+.sell-text{
+	padding: 0px 3px;
+	display: -webkit-box;    
+	-webkit-box-orient: vertical;    
+	-webkit-line-clamp: 2;   
+	overflow: hidden;
+}
+.sell-footer{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding: 3px;
+}
+.sell-footer > .iconfont{
+	margin-left: 3px;
+}
+

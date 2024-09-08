@@ -1,0 +1,21 @@
+
+.sell{
+	width: calc(100% - 10px);
+	display: flex;
+	align-items: flex-start;
+	margin: 0 5px;
+}
+.sell .item{
+	margin: 10px 5px;
+}
+.sell > .left,.sell > .right{
+	width: 370rpx;
+}
+.content{
+	padding-top: 55px;
+}
+.warp{
+	margin: 0px;
+}
+
+

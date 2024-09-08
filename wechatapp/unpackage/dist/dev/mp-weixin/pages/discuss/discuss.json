@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "博客详情",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "my-topic": "/components/myTopic/myTopic",
+    "my-xhx": "/components/myXhx/myXhx",
+    "bottom-input": "/components/bottomInput/bottomInput",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "my-card": "/components/myCard/myCard",
+    "my-poput": "/components/myPoput/myPoput"
+  }
+}

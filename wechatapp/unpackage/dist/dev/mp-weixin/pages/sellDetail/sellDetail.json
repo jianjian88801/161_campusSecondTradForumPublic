@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "闲置详情",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "my-xhx": "/components/myXhx/myXhx",
+    "uni-icons": "/uni_modules/uni-icons/components/uni-icons/uni-icons",
+    "my-poput": "/components/myPoput/myPoput"
+  }
+}

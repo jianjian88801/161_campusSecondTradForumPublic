@@ -1,0 +1,39 @@
+
+.share-box{
+	padding: 20rpx 25rpx;
+	background-color: white;
+}
+.share-box > .share-title{
+	display: flex;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: 600;
+}
+.share-list{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 15px;
+}
+.share-list > .item{
+	
+	width: 175rpx;
+	height: 175rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+}
+.share-list > .item image{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 8px;
+	border-radius: 50%;
+}
+
+
+
+
+ 
+

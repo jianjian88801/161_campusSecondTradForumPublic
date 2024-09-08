@@ -1,0 +1,260 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true,
+				"backgroundColor": "#f6f6f6",
+				"onReachBottomDistance":50
+			
+			}
+		}
+	    ,{
+            "path" : "pages/me/me",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": true,
+				"backgroundColor": "#f6f6f6"
+            },
+            "app-plus": {
+            	"titleView":false//取消导航栏
+    	    }
+
+        }
+        ,{
+            "path" : "pages/discuss/discuss",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "博客详情",
+                "enablePullDownRefresh": true,
+				"backgroundColor": "#f6f6f6"
+            }
+            
+        }
+        ,{
+            "path" : "pages/addCard/addCard",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布讨论",
+                "enablePullDownRefresh": false,
+				"backgroundColor": "#f6f6f6"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sell/sell",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "卖闲置",
+                "enablePullDownRefresh": true,
+				"backgroundColor": "#f6f6f6"
+            }
+            
+        }
+        ,{
+            "path" : "pages/sellDetail/sellDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "闲置详情",
+                "enablePullDownRefresh": false,
+				"backgroundColor": "#f6f6f6"
+            }
+            
+        }
+        ,{
+            "path" : "pages/addTopic/addTopic",
+            "style" :                                                                                     
+            {
+                "navigationBarTitleText": "发布博客",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "登录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/userInfo/userInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "用户信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addSell/addSell",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布闲置",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/blog/blog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "博客",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/chatDetail/chatDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/userDetail/userDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "主页",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/addTalk/addTalk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "发布帖子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/talk/talk",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帖子",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/more/more",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "更多",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/news/news",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/follow/follow",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关注列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/fans/fans",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "粉丝列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/talkComment/talkComment",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "回复",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/collection/collection",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "收藏",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/gy/gy",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/AI/AI",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "AI",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f6f6f6"
+		
+	},
+	"tabBar": {
+		"color": "#000000",
+		"selectedColor": "#fccd43",
+		"backgroundColor": "white",
+		"borderStyle": "black",
+		
+		"list": [{
+			"pagePath": "pages/index/index",
+			"text": "首页",
+			"iconPath": "static/images/tabBar/home.png",
+			"selectedIconPath": "static/images/tabBar/home-active.png"
+		}, 
+		{
+			"pagePath": "pages/blog/blog",
+			"text": "博客",
+			"iconPath": "static/images/tabBar/blog.png",
+			"selectedIconPath": "static/images/tabBar/blog-active.png"
+		}, 
+		{
+			"pagePath": "pages/sell/sell",
+			"text": "卖闲置",
+			"iconPath": "static/images/tabBar/sell.png",
+			"selectedIconPath": "static/images/tabBar/sell-active.png"
+		},
+		{
+			"pagePath": "pages/me/me",
+			"text": "我的",
+			"iconPath": "static/images/tabBar/me.png",
+			"selectedIconPath": "static/images/tabBar/me-active.png"
+		}]
+	},
+	"uniIdRouter": {}
+}

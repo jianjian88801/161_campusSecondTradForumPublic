@@ -1,0 +1,1 @@
+<view class="{{[radius?'xhx radius':'xhx']}}" style="{{'width:'+(width+'px')+';'}}"></view>

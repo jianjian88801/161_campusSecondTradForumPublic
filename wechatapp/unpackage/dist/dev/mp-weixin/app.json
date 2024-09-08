@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/discuss/discuss",
+    "pages/addCard/addCard",
+    "pages/sell/sell",
+    "pages/sellDetail/sellDetail",
+    "pages/addTopic/addTopic",
+    "pages/login/login",
+    "pages/userInfo/userInfo",
+    "pages/addSell/addSell",
+    "pages/blog/blog",
+    "pages/chatDetail/chatDetail",
+    "pages/userDetail/userDetail",
+    "pages/addTalk/addTalk",
+    "pages/talk/talk",
+    "pages/more/more",
+    "pages/news/news",
+    "pages/follow/follow",
+    "pages/fans/fans",
+    "pages/talkComment/talkComment",
+    "pages/collection/collection",
+    "pages/gy/gy",
+    "pages/AI/AI"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f6f6f6"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#fccd43",
+    "backgroundColor": "white",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabBar/home.png",
+        "selectedIconPath": "static/images/tabBar/home-active.png"
+      },
+      {
+        "pagePath": "pages/blog/blog",
+        "text": "博客",
+        "iconPath": "static/images/tabBar/blog.png",
+        "selectedIconPath": "static/images/tabBar/blog-active.png"
+      },
+      {
+        "pagePath": "pages/sell/sell",
+        "text": "卖闲置",
+        "iconPath": "static/images/tabBar/sell.png",
+        "selectedIconPath": "static/images/tabBar/sell-active.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/images/tabBar/me.png",
+        "selectedIconPath": "static/images/tabBar/me-active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "bottom-input": "/components/bottomInput/bottomInput",
+    "my-xhx": "/components/myXhx/myXhx",
+    "scrool-page": "/components/scrollPage/scrollPage",
+    "my-load": "/components/myLoad/myLoad"
+  }
+}

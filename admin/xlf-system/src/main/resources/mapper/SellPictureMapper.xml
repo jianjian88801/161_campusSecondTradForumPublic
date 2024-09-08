@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xlf.system.mapper.SellPictureMapper">
+
+    <resultMap id="BaseResultMap" type="com.xlf.system.domain.SellPicture">
+            <id property="id" column="id" jdbcType="INTEGER"/>
+            <result property="sellId" column="sell_id" jdbcType="INTEGER"/>
+            <result property="url" column="url" jdbcType="VARCHAR"/>
+            <result property="path" column="path" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,sell_id,url,
+        path
+    </sql>
+</mapper>

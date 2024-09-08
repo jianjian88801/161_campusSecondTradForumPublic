@@ -1,0 +1,333 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/* 卡片内边距 */
+.my-card{
+	padding: 0 10px 10px 10px;
+	/* margin: 30px 0; */
+}
+.headr{
+	padding-top: 5px;
+}
+.headr > .iconfont{
+
+	margin-right: 20px;
+}
+/* 内容 */
+.card-text{
+	
+	padding: 20px 0;
+}
+.card-text uni-tag{
+	margin-right: 5px;
+}
+/* 页脚 */
+.card-footer{
+	width: 100%;
+	padding-bottom: 5px;
+}
+.card-footer >.right > .item {
+	display: flex;
+	align-items: center;
+	padding-left: 8px;
+}
+.card-footer .item .item-text{
+	margin-left: 4px;
+}
+/* 回复区开始 */
+.interactive-box .iconfont{
+	margin-right: 5px;
+	margin-top: 5px;
+}
+.interactive-box >.top,.interactive-box > .bottom{
+	display: flex;
+}
+/* 点赞列表和聊天列表 */
+.fabulous-list,.chat-list{
+	
+	overflow: hidden;
+	display: flex;
+	padding: 0px 5px 5px 5px;
+	background-color: #f4f4f4;
+	flex: 1;
+}
+/* 头像大小 */
+.box-size{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 1px;
+	border-radius: 5px !important;
+}
+.mg{
+	margin: 5px;
+}
+/* 点赞列表 */
+.fabulous-list{
+	flex-wrap: wrap;
+}
+/* 聊天列表 */
+.chat-list{
+	flex-direction: column;
+}
+/* 名字 */
+.user_name{
+	margin-left: 2px;
+	line-height: 44rpx;
+}
+.card-image{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 5px;
+}
+.image-item > image{
+	width: 205rpx;
+	height: 205rpx;
+	margin: 2px;
+	border-radius: 5px;
+}
+.more{
+	margin-top: 5px;
+}
+

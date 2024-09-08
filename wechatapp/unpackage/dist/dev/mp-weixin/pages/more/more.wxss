@@ -1,0 +1,17 @@
+
+.more{
+	margin: 20px 15px;
+}
+.item-list{
+	margin-top: 10px;
+	background-color: white;
+	padding: 5px;
+}
+.item-list >.item{
+	margin: 10px 0;
+}
+.poput{
+	width: 70%;
+	margin: 0 auto;
+}
+

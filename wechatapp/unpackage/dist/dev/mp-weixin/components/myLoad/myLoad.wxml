@@ -1,0 +1,1 @@
+<view class="myload"><uni-load-more vue-id="2f9ddd82-1" status="{{status}}" content-text="{{contentText}}" bind:__l="__l"></uni-load-more></view>

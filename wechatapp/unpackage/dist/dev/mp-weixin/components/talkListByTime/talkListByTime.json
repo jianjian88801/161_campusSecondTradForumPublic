@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "my-chat": "/components/myChat/myChat",
+    "my-load": "/components/myLoad/myLoad"
+  },
+  "component": true
+}

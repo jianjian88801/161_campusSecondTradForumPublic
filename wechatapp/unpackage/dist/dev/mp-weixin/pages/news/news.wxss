@@ -1,0 +1,19 @@
+
+.news-menu{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/* padding: 10px 0; */
+	margin-top: 2px;
+	margin-bottom: 15px;
+	background-color: white;
+}
+.news-menu > .item{
+	width: 187.5rpx;
+	height: 187.5rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+

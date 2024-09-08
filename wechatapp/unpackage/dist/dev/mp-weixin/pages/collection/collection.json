@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "收藏",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "talk-list-by-time": "/components/talkListByTime/talkListByTime",
+    "talk-list": "/components/talkList/talkList"
+  }
+}

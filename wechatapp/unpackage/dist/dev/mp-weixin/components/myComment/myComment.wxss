@@ -1,0 +1,33 @@
+
+.info-text{
+	line-height: 44rpx;
+	margin-left: 2px;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+}
+.user_name{
+	margin-left: 3px;
+	line-height: 44rpx;
+}
+.box-size{
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 1px;
+	border-radius: 50% !important;
+}
+.hf{
+	margin-right: 2px;
+}
+.info > .bottom
+{
+	margin-top: 5px;
+}
+.simage{
+	width: 120rpx;
+	height: 120rpx;
+	margin-right: 1px;
+	border-radius: 5px !important;
+}
+

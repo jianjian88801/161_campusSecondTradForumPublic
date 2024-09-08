@@ -1,0 +1,47 @@
+
+.top30{
+	padding-top: 30px;
+}
+.discuss-item{
+	margin-bottom: 50px;
+}
+.discuss-item:last-child{
+	margin-bottom: 0;
+}
+.discuss-title{
+	width: 100%;
+	margin: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.discuss-title > .right{
+	display: flex;
+}
+.discuss-title > .right > .item{
+	margin-left: 10px;
+}
+.discuss-title > .right > .item > .iconfont{
+	margin-right: 3px;
+}
+.discuss-title > .left{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.title{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 15px 0;
+}
+.topic-content{
+	padding: 5px;
+}
+.topic-content  ._img{
+	width: 100%;
+}
+
+
+

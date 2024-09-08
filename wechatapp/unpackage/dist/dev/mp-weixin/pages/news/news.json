@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "消息",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "my-xhx": "/components/myXhx/myXhx",
+    "talk-list-by-time": "/components/talkListByTime/talkListByTime"
+  }
+}

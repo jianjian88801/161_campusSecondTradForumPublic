@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "my-poput": "/components/myPoput/myPoput"
+  }
+}

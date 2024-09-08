@@ -1,0 +1,23 @@
+
+.my-poput{
+	border-radius: 8px;
+	overflow: hidden;
+}
+.my-poput .footer{
+	display: flex;
+}
+.my-poput .footer > .btn:first-child{
+	margin-right: 10px;
+}
+.my-poput .form{
+	background-color: white;
+	padding: 15px;
+}
+.form > .my-poput-content{
+	padding: 15px 0;
+}
+.my-poput .ok{
+	height: 20px;
+	font-size: 14px;
+}
+

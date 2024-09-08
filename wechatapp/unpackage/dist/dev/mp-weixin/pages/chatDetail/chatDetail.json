@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "详情",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "my-transmfer-accounts": "/components/myTransmferAccounts/myTransmferAccounts",
+    "bottom-input": "/components/bottomInput/bottomInput",
+    "my-load": "/components/myLoad/myLoad",
+    "my-share": "/components/myShare/myShare",
+    "my-poput": "/components/myPoput/myPoput",
+    "my-chat-comment": "/components/myChatComment/myChatComment"
+  }
+}

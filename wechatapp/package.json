@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "svg-sprite-loader": "^6.0.11"
+  },
+  "dependencies": {
+    "qiniu": "^7.8.0"
+  }
+}

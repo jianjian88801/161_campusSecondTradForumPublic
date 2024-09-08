@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xlf.system.mapper.DiscussPictureMapper">
+
+    <resultMap id="BaseResultMap" type="com.xlf.system.domain.DiscussPicture">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="discussId" column="discuss_id" jdbcType="BIGINT"/>
+            <result property="path" column="path" jdbcType="VARCHAR"/>
+            <result property="url" column="url" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,discuss_id,path,
+        url
+    </sql>
+</mapper>

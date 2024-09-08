@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xlf.system.mapper.SysOperLogMapper">
+
+    <resultMap id="BaseResultMap" type="com.xlf.system.domain.SysOperLog">
+            <id property="operId" column="oper_id" jdbcType="BIGINT"/>
+            <result property="title" column="title" jdbcType="VARCHAR"/>
+            <result property="businessType" column="business_type" jdbcType="INTEGER"/>
+            <result property="method" column="method" jdbcType="VARCHAR"/>
+            <result property="requestMethod" column="request_method" jdbcType="VARCHAR"/>
+            <result property="operatorType" column="operator_type" jdbcType="INTEGER"/>
+            <result property="operName" column="oper_name" jdbcType="VARCHAR"/>
+            <result property="deptName" column="dept_name" jdbcType="VARCHAR"/>
+            <result property="operUrl" column="oper_url" jdbcType="VARCHAR"/>
+            <result property="operIp" column="oper_ip" jdbcType="VARCHAR"/>
+            <result property="operLocation" column="oper_location" jdbcType="VARCHAR"/>
+            <result property="operParam" column="oper_param" jdbcType="VARCHAR"/>
+            <result property="jsonResult" column="json_result" jdbcType="VARCHAR"/>
+            <result property="status" column="status" jdbcType="INTEGER"/>
+            <result property="errorMsg" column="error_msg" jdbcType="VARCHAR"/>
+            <result property="operTime" column="oper_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="selectOperLogVo">
+        select oper_id, title, business_type, method, request_method, operator_type, oper_name, dept_name, oper_url, oper_ip, oper_location, oper_param, json_result, status, error_msg, oper_time
+        from sys_oper_log
+    </sql>
+
+    <sql id="Base_Column_List">
+        oper_id,title,business_type,
+        method,request_method,operator_type,
+        oper_name,dept_name,oper_url,
+        oper_ip,oper_location,oper_param,
+        json_result,status,error_msg,
+        oper_time
+    </sql>
+    <update id="cleanOperLog">
+        truncate table sys_oper_log
+    </update>
+
+
+    <select id="selectOperLogList" resultType="com.xlf.system.domain.SysOperLog">
+        <include refid="selectOperLogVo"/>
+        <where>
+            <if test="title != null and title != ''">
+                AND title like concat('%', #{title}, '%')
+            </if>
+            <if test="businessType != null">
+                AND business_type = #{businessType}
+            </if>
+            <if test="businessTypes != null and businessTypes.length > 0">
+                AND business_type in
+                <foreach collection="businessTypes" item="businessType" open="(" separator="," close=")">
+                    #{businessType}
+                </foreach>
+            </if>
+            <if test="status != null">
+                AND status = #{status}
+            </if>
+            <if test="operName != null and operName != ''">
+                AND oper_name like concat('%', #{operName}, '%')
+            </if>
+            <if test="params!=null and params.beginTime != null and params.beginTime != ''"><!-- 开始时间检索 -->
+                and date_format(oper_time,'%y%m%d') &gt;= date_format(#{params.beginTime},'%y%m%d')
+            </if>
+            <if test="params!=null and params.endTime != null and params.endTime != ''"><!-- 结束时间检索 -->
+                and date_format(oper_time,'%y%m%d') &lt;= date_format(#{params.endTime},'%y%m%d')
+            </if>
+        </where>
+        order by oper_time desc
+    </select>
+</mapper>

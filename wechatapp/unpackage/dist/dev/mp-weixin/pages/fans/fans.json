@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "粉丝列表",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "list-item": "/components/listItem/listItem",
+    "my-load": "/components/myLoad/myLoad"
+  }
+}

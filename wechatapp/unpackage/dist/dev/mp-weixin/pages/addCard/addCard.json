@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "发布讨论",
+  "enablePullDownRefresh": false,
+  "backgroundColor": "#f6f6f6",
+  "usingComponents": {
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker"
+  }
+}

@@ -1,0 +1,169 @@
+
+
+page{
+	/* 触发底部刷新 */
+	min-height: 101vh;
+	background-color: #f6f6f6;
+}
+/* 容器外部主体 */
+.warp{
+	margin: 0 30rpx ;
+}
+
+.content{
+	background-color: #f6f6f6;
+	padding: 150rpx 0px 2rpx 0px;
+}	
+
+/* 卡片样式 */
+.card{
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	border-radius: 10px;
+	
+}
+
+/* 级小字体 */
+.dmin-front{
+	font-size: 8px;
+}
+/* 小字体 */
+.min-front{
+	font-size: 10px;
+}
+/* 中等字体 */
+.mid-front{
+	font-size: 12px;
+}
+/* 14字体 正文文本字体(默认字体) */
+.dmid-front-14{
+	font-size: 14px;
+}
+/* 16字体 标题 */
+.bt-front-16{
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.icon{
+	width: 20px;
+	height: 20px;
+}
+/* 用户信息 */
+.user-info{
+	display: flex;
+	align-items: center;
+}
+ .user-info image{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-radius: 50%;
+	
+}
+/* 头像边框 */
+.av-border{
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	/* border-radius: 10px; */
+}
+.weight_600{
+	font-weight: 600;
+}
+
+/* 左浮动 */
+.lf{
+	float: left;
+}
+/* 闲置卡片 */
+.sellCard{
+	width: 100%;
+	box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+	/* min-height: 100px; */
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: white;
+}
+
+
+/* 左右布局 */
+.l_r{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+}
+.l_r > .left{
+	display: flex;
+	align-items: center;
+}
+
+.l_r > .right{
+	display: flex;
+}
+.l_r > .left >.item:nth-child(2){
+	margin-left: 5px;
+}
+.l_r > .right >.item:nth-child(2){
+	margin-left: 5px;
+}
+
+.item-text{
+	margin-left: 3px;
+}
+/* 左右布局结束 */
+
+
+/* 添加按钮 */
+.add{
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	
+	height: 100rpx;
+	width: 100rpx;
+	border-radius: 50%;
+	background-color: #fac843;
+	box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+/* 黄色按钮 */
+.btn{
+	width: 100%;
+	/* height: 80rpx; */
+	padding: 10px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #fccd43;
+	border-radius: 10px;
+	font-size:16px
+}
+
+.icon-active{
+	color: #fccd43;
+}
+
+/* 按钮默认样式 */
+button {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border-radius: 0;
+  background-color: transparent;
+  line-height: inherit;
+  width: max-content;
+}
+button::after {
+  border: none;
+}
+button:hover{
+	background-color: white
+}
+
+/* 解决纯英文，数字超不换行问题 */
+text,textarea{
+	word-break:break-all;
+	word-wrap:break-word;
+
+}

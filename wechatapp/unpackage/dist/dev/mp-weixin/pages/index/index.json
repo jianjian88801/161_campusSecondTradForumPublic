@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f6f6f6",
+  "onReachBottomDistance": 50,
+  "usingComponents": {
+    "uni-easyinput": "/uni_modules/uni-easyinput/components/uni-easyinput/uni-easyinput",
+    "my-chat": "/components/myChat/myChat",
+    "my-load": "/components/myLoad/myLoad",
+    "uni-fab": "/uni_modules/uni-fab/components/uni-fab/uni-fab",
+    "bottom-input": "/components/bottomInput/bottomInput",
+    "my-ads": "/components/myAds/myAds"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "bottom-input": "/components/bottomInput/bottomInput",
+    "my-comment": "/components/myComment/myComment",
+    "my-poput": "/components/myPoput/myPoput"
+  }
+}

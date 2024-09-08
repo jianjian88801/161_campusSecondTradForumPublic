@@ -1,0 +1,17 @@
+
+.topic-item{
+	margin-bottom: 50px;
+}
+.topic-item:last-child{
+	margin-bottom: 0 !important;
+}
+.title{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	margin: 20px 0;
+}
+
+

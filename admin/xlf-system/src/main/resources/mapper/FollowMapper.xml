@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xlf.system.mapper.FollowMapper">
+
+    <resultMap id="BaseResultMap" type="com.xlf.system.domain.Follow">
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="userById" column="user_by_id" jdbcType="BIGINT"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        user_id,user_by_id
+    </sql>
+</mapper>
